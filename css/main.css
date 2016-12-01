@@ -28,8 +28,15 @@ body {
 }
 
 .img-flex {
-  display: inline-block;
-  width: 49%;
+  width: 50%;
+}
+
+.section-letter {
+  float: left;
+}
+
+.section-icon {
+  float: right;
 }
 
 h2 {
@@ -45,13 +52,41 @@ p {
 
 @media only screen and (min-width: 25em) {
 
-  p {
-    width: 100%;
+
+  .section-letter {
+    float: left;
+    padding-left: 1rem;
+  }
+
+  .section-icon {
+    float: right;
+    padding-right: 1rem;
+  }
+
+  .img-flex {
+    width: 45%;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
+
+  .img-flex {
+    width: 10%;
+  }
+
+  .wrapper {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+
+  }
+
+  .section-body {
+    text-align: center;
+  }
+
+
 
 
 
